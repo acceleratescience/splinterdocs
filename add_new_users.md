@@ -1,8 +1,12 @@
-### General notes
+# Adding a new user to splinter
+
+## General notes
 
 * Username is the lead CRSid, lowercase.
 * One team can share one username with multiple SSH keys.
 * Do not give sudo access unless needed.
+
+## Instructions
 
 ### Create user
 
