@@ -1,4 +1,4 @@
-# Adding a new user to splinter
+# Adding a new user to Splinter
 
 ## General notes
 
