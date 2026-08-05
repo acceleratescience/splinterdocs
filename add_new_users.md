@@ -5,10 +5,11 @@
 * Username is the lead CRSid, lowercase.
 * One team can share one username with multiple SSH keys.
 * Do not give sudo access unless needed.
+* Feel free to skip the verify steps
 
 ## Instructions
 
-### Create user
+### 1. Create user
 
 ```bash
 sudo adduser --disabled-password --gecos "" newusername
@@ -20,7 +21,7 @@ Verify:
 getent passwd newusername
 ```
 
-### Set up SSH keys
+### 2. Set up SSH keys
 - One key is fine too
 - Can add a key of yours to test things
 
@@ -45,7 +46,7 @@ sudo nl -ba /home/newusername/.ssh/authorized_keys
 sudo namei -l /home/newusername/.ssh/authorized_keys
 ```
 
-### Add user to allowed list
+### 3. Add user to the allowed list
 
 ```bash
 sudo nano /etc/ssh/sshd_config.d/10-allowusers.conf
@@ -59,7 +60,7 @@ Verify:
 sudo sshd -T | grep -i '^allowusers'
 ```
 
-### Reload SSH
+### 4. Reload SSH
 
 ```bash
 sudo sshd -t && sudo systemctl reload ssh
@@ -71,7 +72,7 @@ Verify:
 sudo systemctl is-active ssh
 ```
 
-### Test login (by user, from machine with their ssh key)
+### 5. Test login (by user, from machine with their ssh key)
 
 ```bash
 ssh newusername@splinter.cl.cam.ac.uk
