@@ -72,7 +72,9 @@ Verify:
 sudo systemctl is-active ssh
 ```
 
-### 5. Test login (by user, from machine with their ssh key)
+### 5. Test login 
+- to be done by user, from machine with their ssh key
+- or you if you added your ssh key too
 
 ```bash
 ssh newusername@splinter.cl.cam.ac.uk
