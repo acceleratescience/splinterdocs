@@ -1,4 +1,5 @@
 # Adding a new user to Splinter
+# (Admin Only)
 
 ## General notes
 
