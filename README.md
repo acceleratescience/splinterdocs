@@ -3,3 +3,6 @@ Repository for instructions on working with splinter, our compute resource
 
 ### (Admin) tag
 Some files are tagged admin and only apply to the accelerate team setting up the system
+
+### Future 
+make a splinterdocs_admin repo, and move admin stuff there, make this repo public
