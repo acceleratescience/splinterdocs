@@ -1,8 +1,14 @@
-# List of installed things you can use
+# Installed tools
 
-Not exhaustive; contact one of us to request anything else that requires `sudo` access
+Not exhaustive. If you need something else that requires `sudo` access, contact one of us.
 
----
-
-- UV
-- GDAL
+* Python
+* `uv`
+* CUDA 13.2
+* Docker + Docker Compose
+* Git
+* `tmux`
+* `htop` / `nvtop`
+* `jq`
+* `curl`
+* GDAL
