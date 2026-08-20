@@ -1,8 +1,10 @@
 # Connecting to Splinter
 
-## Pods *currently not available*
+## Pods 
+(*currently not available*)
 
 The default, browser-based way to interact with Splinter. 
+
 Go to `https://pods.science.ai.cam.ac.uk/` and enter the credentials you were given.
 
 ## SSH
