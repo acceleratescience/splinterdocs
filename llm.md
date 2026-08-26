@@ -1,6 +1,6 @@
 ### Splinter LiteLLM
 
-`https://llm.science.ai.cam.ac.uk`
+`https://llm.science.ai.cam.ac.uk/ui`
 
 ### UIS LiteLLM
 
