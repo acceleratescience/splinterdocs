@@ -16,6 +16,6 @@ Repository for instructions on working with Splinter, our compute resource.
 ## Troubleshooting
 - [SFTP](sftp.md)
   
----
-
-## Accelerate team members, see also [splinterdocs_admin](https://github.com/acceleratescience/splinterdocs_admin).
+## Admin documentation 
+- [splinterdocs_admin](https://github.com/acceleratescience/splinterdocs_admin)
+(Accelerate team members only)
