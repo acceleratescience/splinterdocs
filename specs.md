@@ -2,6 +2,7 @@
 
 * The server is a high-performance GPU compute system running Ubuntu 24.04 LTS.
 * It has 4 NVIDIA H100-class GPUs, 1 TiB of RAM, enterprise NVMe storage, and an Intel Xeon Gold CPU.
+* You may be allocated only a portion of this
 
 ### CPU
 
