@@ -9,7 +9,7 @@ Repository for instructions on working with Splinter, our compute resource.
 - [Connecting](connecting.md)
 
 ## Running stuff
-- [UV / Python environments](uv.md)
+- [Python environments](uv.md)
 - [Installed software](installed.md)
 - [LLMs](llm.md)
 
