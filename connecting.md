@@ -14,7 +14,7 @@ Go to `https://pods.science.ai.cam.ac.uk/` and enter the credentials you were gi
 ssh <crsid>@splinter.cl.cam.ac.uk
 ```
 
-Your SSH key must already be added to your Splinter account.
+Your SSH key must already be added to your Splinter account, and whitelisted.
 
 If needed, specify a key:
 
